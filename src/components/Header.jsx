@@ -62,28 +62,28 @@ function Header() {
 
       <ul className="nav nav-pills">
         <li className="nav-item">
-          <a href="#" className="nav-link" aria-current="page">
+          <a href="#home" className="nav-link" aria-current="page">
             Home
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
-            Features
+          <a href="#Me" className="nav-link">
+            Who am I?
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
-            Pricing
+          <a href="#tc" className="nav-link">
+            Tech Stack
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
-            FAQs
+          <a href="#project" className="nav-link">
+            Projects
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link">
-            About
+          <a href="#contact" className="nav-link">
+            Contact
           </a>
         </li>
       </ul>

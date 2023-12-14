@@ -121,7 +121,7 @@ function TechStack() {
             </g>
           </svg>
         </div>
-        <h3 className="fs-2 text-body-emphasis">Back-End</h3>
+        <h3 className="fs-2 text-body-emphasis">Others</h3>
         <p>
           Git <br />
           GitHub <br />

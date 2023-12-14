@@ -10,13 +10,12 @@ import Social from "./Social";
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
-      <About />
-      <TechStack />
+      <Hero id="home" />
+      <About id="Me" />
+      <TechStack id="tc" />
       <hr />
-      <RecentWork />
-      <Contact />
+      <RecentWork id="project" />
+      <Contact id="contact" />
       <Social />
     </div>
   );
