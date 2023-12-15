@@ -7,16 +7,19 @@ import RecentWork from "./RecentWork";
 import Contact from "./Contact";
 import Social from "./Social";
 
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 function App() {
   return (
     <div>
-      <Hero id="home" />
-      <About id="Me" />
-      <TechStack id="tc" />
+      <Hero />
+      <About />
+      <TechStack />
       <hr />
-      <RecentWork id="project" />
-      <Contact id="contact" />
+      <RecentWork />
+      <Contact />
       <Social />
+      <SpeedInsights/>
     </div>
   );
 }
