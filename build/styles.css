@@ -1,0 +1,66 @@
+body {
+  marign: 0;
+  padding: 0;
+  all: unset;
+  font-family: "Poppins", sans-serif;
+}
+
+.My-Photo {
+  border-radius: 50%;
+  border: 5px solid black;
+  width: 100xp;
+  height: auto;
+  background-color: #fff3bf;
+  background-image: radial-gradient(#ff6f9f 10%, transparent 11%),
+    radial-gradient(#ff6f9f 10%, transparent 11%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+}
+
+.contact {
+  background-color: #141c3a;
+  color: white;
+  height: 15rem;
+  margin-bottom: calc(1rem - 1.75rem)
+  z-index: 100;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.DO {
+  all: unset;
+  text-decoration: none;
+  color: white;
+  border-radius: 3rem;
+  border: 2px solid #5be9b9;
+}
+
+.DO:hover {
+  all: unset;
+  text-decoration: none;
+  color: #000;
+  border-radius: 3rem;
+  border: 2px solid #5be9b9;
+  height: 50px;
+  background-color: #5be9b9;
+  transition: all 0.3s ease;
+}
+
+.socials > button {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.socials > button:hover {
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
