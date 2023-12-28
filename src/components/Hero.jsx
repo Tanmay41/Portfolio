@@ -12,7 +12,7 @@ function Hero() {
         </p>
         <img
           className="My-Photo"
-          src="https://lh3.google.com/u/0/d/1RnJaX_XnYz0giWkuWzRqTvWyuACBZrlb=w1920-h970-iv1"
+          src="https://raw.githubusercontent.com/Tanmay41/Portfolio/main/assets/img/Tanmay.png"
           alt=""
         />
       </div>
