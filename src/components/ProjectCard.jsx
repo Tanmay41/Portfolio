@@ -15,7 +15,7 @@ const ProjectCard = ({ project, index }) => {
         <div className="card-body">
           <h5 className="card-title">{project.name}</h5>
           <p className="card-text">{project.description}</p>
-          <a href={project.link} className="btn btn-primary">
+          <a href={project.link} target="_blank" className="btn btn-primary">
             View Project
           </a>
         </div>

@@ -55,6 +55,14 @@ const projects = [
     description:
       "Greeting in every language? This clever project uses TWO APIs to pinpoint your location and say 'Hello'. 🎉 But trust me, it's no easy task! There is a lot more magik✨ going on in the backend 🧠  ",
   },
+  {
+    imageUrl:
+      "https://raw.githubusercontent.com/Tanmay41/Portfolio-OLD/main/assets/images/LABSTOCK.png",
+    link: "https://my7frs-3000.csb.app/",
+    name: "Computer Lab Stock Management 💻",
+    description:
+      "Managing computer lab stocks made efficient! This project utilizes PostgreSQL, with its data securely hosted on CockroachDB. Dive into streamlined inventory management and database resilience. 📊🔒",
+  },
 ];
 
 export default projects;
