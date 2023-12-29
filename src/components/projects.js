@@ -8,7 +8,8 @@ const projects = [
       "Move-It is a website 🌐 that serves as a dynamic online platform, dedicated to facilitating the effortless transfer of individuals' possessions from one location to another. This digital space exemplifies our commitment to providing a user-friendly interface for streamlined and secure moving experiences. 🚚✨",
   },
   {
-    imageUrl: "https://tanmay41.github.io/Portfolio-OLD/assets/images/Design.png",
+    imageUrl:
+      "https://tanmay41.github.io/Portfolio-OLD/assets/images/Design.png",
     link: "https://tanmay41.github.io/Portfolio-OLD/assets/Projects/Web Design Agency",
     name: "Web-Design Agency 🌐",
     description:
@@ -45,6 +46,14 @@ const projects = [
     name: "Todo List ✅",
     description:
       "A Todo List application to help you stay organized and manage your tasks efficiently. ✅",
+  },
+  {
+    imageUrl:
+      "https://raw.githubusercontent.com/Tanmay41/Portfolio-OLD/main/assets/images/hello.png",
+    link: "https://xx7z3q-3000.csb.app/",
+    name: "Hello 🌍",
+    description:
+      "Greeting in every language? This clever project uses TWO APIs to pinpoint your location and say 'Hello'. 🎉 But trust me, it's no easy task! There is a lot more magik✨ going on in the backend 🧠  ",
   },
 ];
 

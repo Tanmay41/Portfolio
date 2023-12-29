@@ -1,5 +1,5 @@
 body {
-  marign: 0;
+  margin: 0;
   padding: 0;
   all: unset;
   font-family: "Poppins", sans-serif;
@@ -22,7 +22,7 @@ body {
   background-color: #141c3a;
   color: white;
   height: 15rem;
-  margin-bottom: calc(1rem - 1.75rem)
+  margin-bottom: calc(1rem - 1.75rem);
   z-index: 100;
 }
 
