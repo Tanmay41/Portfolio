@@ -9,14 +9,6 @@ const projects = [
   },
   {
     imageUrl:
-      "https://tanmay41.github.io/Portfolio-OLD/assets/images/Design.png",
-    link: "https://tanmay41.github.io/Portfolio-OLD/assets/Projects/Web Design Agency",
-    name: "Web-Design Agency 🌐",
-    description:
-      "This project showcases my expertise in web development 🚀, highlighting the intricate design, functionality, and user experience enhancements I implemented to contribute to the agency's online presence.",
-  },
-  {
-    imageUrl:
       "https://tanmay41.github.io/Portfolio-OLD/assets/images/tindog-projct.png",
     link: "https://tanmay41.github.io/Portfolio-OLD/assets/Projects/Tindog/",
     name: "Tindog ❤️‍🔥",
@@ -49,19 +41,11 @@ const projects = [
   },
   {
     imageUrl:
-      "https://raw.githubusercontent.com/Tanmay41/Portfolio-OLD/main/assets/images/hello.png",
-    link: "https://xx7z3q-3000.csb.app/",
-    name: "Hello 🌍",
+      "https://tanmay41.github.io/Portfolio-OLD/assets/images/Calculator.png",
+    link: "https://tanmay41.github.io/Portfolio-OLD/assets/Projects/Calculator",
+    name: "Calculator 🧮",
     description:
-      "Greeting in every language? This clever project uses TWO APIs to pinpoint your location and say 'Hello'. 🎉 But trust me, it's no easy task! There is a lot more magik✨ going on in the backend 🧠  ",
-  },
-  {
-    imageUrl:
-      "https://raw.githubusercontent.com/Tanmay41/Portfolio-OLD/main/assets/images/LABSTOCK.png",
-    link: "https://my7frs-3000.csb.app/",
-    name: "Computer Lab Stock Management 💻",
-    description:
-      "Managing computer lab stocks made efficient! This project utilizes PostgreSQL, with its data securely hosted on CockroachDB. Dive into streamlined inventory management and database resilience. 📊🔒",
+      "A simple calculator application for basic arithmetic operations.",
   },
 ];
 
