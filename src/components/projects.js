@@ -50,7 +50,7 @@ const projects = [
 	{
 		imageUrl:
 			"https://tanmay41.github.io/Portfolio-OLD/assets/images/blogMaster.png",
-		link: "https://blogmaster-m0a5.onrender.com/",
+		link: "https://blog-master-client.vercel.app/",
 		name: "Blog Master📝",
 		description:
 			"A sophisticated blog website created using React, backed by an API implemented with Express for fetching and sending data to the client.",
