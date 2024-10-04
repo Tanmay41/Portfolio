@@ -20,7 +20,7 @@ const SkillBox: React.FC<SkillBoxProps> = ({ icon, title }) => {
     //   <p className={"text-center"}>{title}</p>
     // </div>
     <CardContainer
-      className={"w-fit h-fit flex justify-center items-center flex-col"}
+      className={"group w-fit h-fit flex justify-center items-center flex-col"}
     >
       <CardBody
         className={
@@ -33,12 +33,12 @@ const SkillBox: React.FC<SkillBoxProps> = ({ icon, title }) => {
             alt={title}
             height={45}
             width={45}
-            className={"rounded-md"}
+            className={"rounded-md group-hover:blur-[0.5px] dark:invert"}
           />
         </CardItem>
       </CardBody>
       <CardItem translateZ={100}>
-        <p>{title}</p>
+        <p className={"group-hover:blur-[0.5px]"}>{title}</p>
       </CardItem>
     </CardContainer>
   );

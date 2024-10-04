@@ -36,33 +36,33 @@ const ShinyButton = ({
   link,
 }: ShinyButtonProps) => {
   return (
-    <a href={link}>
-      <motion.button
-        {...animationProps}
-        className={cn(
-          "relative group rounded-lg px-6 py-2 font-medium backdrop-blur-xl transition-[box-shadow] duration-300 ease-in-out hover:shadow dark:bg-[radial-gradient(circle_at_50%_0%,hsl(var(--primary)/10%)_0%,transparent_60%)] dark:hover:shadow-[0_0_20px_hsl(var(--primary)/10%)]",
-          className,
-        )}
-      >
+      <a href="#contact">
+        <motion.button
+            {...animationProps}
+            className={cn(
+                "relative group rounded-lg px-6 py-2 font-medium backdrop-blur-xl transition-[box-shadow] duration-300 ease-in-out hover:shadow dark:bg-[radial-gradient(circle_at_50%_0%,hsl(var(--primary)/10%)_0%,transparent_60%)] dark:hover:shadow-[0_0_20px_hsl(var(--primary)/10%)]",
+                className,
+            )}
+        >
         <span
-          className="relative flex gap-2.5 items-center h-full w-full text-sm uppercase tracking-wide text-[rgb(255,255,255)] dark:font-light dark:text-[rgb(255,255,255,90%)]"
-          style={{
-            maskImage:
-              "linear-gradient(-75deg,hsl(var(--primary)) calc(var(--x) + 20%),transparent 30%),hsl(var(--primary)) 100%))s",
-          }}
+            className="relative flex gap-2.5 items-center h-full w-full text-sm uppercase tracking-wide text-[rgb(255,255,255)] dark:font-light dark:text-[rgb(255,255,255,90%)]"
+            style={{
+              maskImage:
+                  "linear-gradient(-75deg,hsl(var(--primary)) calc(var(--x) + 20%),transparent 30%),hsl(var(--primary)) 100%))s",
+            }}
         >
           {text}
-          <SendHorizontal className={"group-hover:-rotate-12 transition"} />
+          <SendHorizontal className={"group-hover:-rotate-12 transition"}/>
         </span>
-        <span
-          style={{
-            mask: "linear-gradient(rgb(0,0,0), rgb(0,0,0)) content-box,linear-gradient(rgb(0,0,0),",
-            maskComposite: "exclude",
-          }}
-          className="absolute inset-0 z-10 block rounded-[inherit] bg-[linear-gradient(-75deg,hsl(var(--primary)/10%)_calc(var(--x)+20%),hsl(var(--primary)/50%)_calc(var(--x)+25%),hsl(var(--primary)/10%)_calc(var(--x)+100%))] p-px"
-        ></span>
-      </motion.button>
-    </a>
+          <span
+              style={{
+                mask: "linear-gradient(rgb(0,0,0), rgb(0,0,0)) content-box,linear-gradient(rgb(0,0,0),",
+                maskComposite: "exclude",
+              }}
+              className="absolute inset-0 z-10 block rounded-[inherit] bg-[linear-gradient(-75deg,hsl(var(--primary)/10%)_calc(var(--x)+20%),hsl(var(--primary)/50%)_calc(var(--x)+25%),hsl(var(--primary)/10%)_calc(var(--x)+100%))] p-px"
+          ></span>
+        </motion.button>
+      </a>
   );
 };
 

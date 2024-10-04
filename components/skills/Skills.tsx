@@ -6,19 +6,16 @@ import {
   TabsTrigger,
 } from "@/components/skills/tab";
 import { Meteors } from "@/components/skills/meteors";
-import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
-import { useState } from "react";
 import SkillTab from "@/components/skills/tabs/Skills";
-import Experience from "@/components/skills/tabs/Experience";
 
 const Skills = () => {
   // const [activeTab, setActiveTab] = useState("skills");
 
   return (
-    <div className={"relative w-full h-screen"}>
-      <div className={"flex justify-center items-center w-full h-full mt-16"}>
-        <div className={"hidden lg:w-1/2 lg:flex justify-center items-center"}>
+    <div id="skills" className={"relative py-5"}>
+      <div className={"flex justify-center items-start w-full h-full mt-16"}>
+        <div className={"hidden lg:w-1/2 lg:flex justify-center items-center top-0"}>
           <Image
             src={"/asset/image/skill.svg"}
             alt={"Image of a team planning"}
@@ -27,7 +24,7 @@ const Skills = () => {
             draggable={false}
           />
         </div>
-        <div className={"relative w-full lg:w-1/2 h-screen"}>
+        <div className={"relative w-full lg:w-1/2np"}>
           <Tab
             defaultValue="skills"
             className="w-full flex justify-center items-center flex-col"
@@ -66,7 +63,7 @@ const Skills = () => {
           </Tab>
         </div>
       </div>
-      <Meteors number={50} className={"-z-10"} />
+      {/*<Meteors number={50} className={"-z-10"} />*/}
     </div>
   );
 };

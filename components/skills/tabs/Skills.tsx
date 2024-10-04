@@ -90,7 +90,7 @@ const SkillTab = () => {
                 "hover:text-[#fb3a67] [&[data-state=open]]:text-[#fb3a67]"
               }
             >
-              <img src={item.icon} alt="" className={"w-[25px] h-[25px] m-0"} />
+              <img src={item.icon} alt="" className={"w-[25px] h-[25px] m-0 dark:invert"} />
               {item.title}
             </AccordionTrigger>
             <AccordionContent>
