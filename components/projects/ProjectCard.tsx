@@ -1,5 +1,5 @@
 // components/projects/ProjectCard.tsx
-import { LucideIcon } from "lucide-react";
+import { LucideIcon, ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 // Define the type for the props
@@ -23,15 +23,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 	link,
 }) => {
 	const commonCardStyles =
-		"group rounded-3xl hover:-translate-y-[10px] hover:shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px] duration-500 border border-gray-200 dark:border-gray-800";
+		"group rounded-3xl h-full hover:-translate-y-[10px] hover:shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px] duration-500 border border-gray-200 dark:border-gray-800";
 	const iconStyle = "opacity-0 group-hover:opacity-100 duration-500";
 	var imgClass;
 	if (isLarge) {
 		imgClass =
-			"relative left-1/2 object-cover object-top overflow-hidden rounded-md group-hover:translate-y-[15px] duration-500 top-1/4 shadow-tl";
+			"relative left-1/2 object-cover object-top overflow-hidden rounded-md group-hover:translate-y-[15px] duration-500 top-1/4";
 	} else {
 		imgClass =
-			"relative left-1/2 object-cover object-top overflow-hidden rounded-md group-hover:translate-y-[15px] duration-500 top-1/2 shadow-tl";
+			"relative left-1/2 object-cover object-top overflow-hidden rounded-md group-hover:translate-y-[15px] duration-500 top-1/2 -z-10";
 	}
 
 	// Custom style for images to achieve a shadow effect
@@ -41,6 +41,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
 	return (
 		<a href={link ? link : "#"} className={cn(commonCardStyles, className)}>
+			<ExternalLink
+				className={
+					"relative left-[90%] top-4 text-[#fb3a67] lg:opacity-0"
+				}
+				size={25}
+			/>
 			{Icon && (
 				<Icon
 					size={50}

@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import LampDemo, { LampContainer } from "../ui/lamp";
-import { Button } from "../ui/button";
+import { LampContainer } from "../ui/lamp";
 import { Github, Linkedin, Instagram } from "lucide-react";
 
 const Contact: React.FC = () => {
@@ -9,16 +8,16 @@ const Contact: React.FC = () => {
 		<LampContainer>
 			<section
 				id="contact"
-				className="text-white py-16 flex items-start flex-row gap-8"
+				className="text-white py-16 flex items-start flex-col lg:flex-row gap-8 mt-5"
 			>
 				<div className="container mx-auto px-4">
 					<h1 className="text-5xl font-bold text-white mb-8">
 						Let&apos;s Work Together
 					</h1>
 					<p className="text-xl mb-12 max-w-2xl">
-						I&apos;m currently looking for a new opportunity. Whether you
-						have a question or just want to say hi, I&apos;ll try my best
-						to get back to you!
+						I&apos;m currently looking for a new opportunity.
+						Whether you have a question or just want to say hi,
+						I&apos;ll try my best to get back to you!
 					</p>
 				</div>
 				<div className="flex flex-col gap-8 w-full">
