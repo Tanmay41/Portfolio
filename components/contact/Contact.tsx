@@ -13,11 +13,11 @@ const Contact: React.FC = () => {
 			>
 				<div className="container mx-auto px-4">
 					<h1 className="text-5xl font-bold text-white mb-8">
-						Let's Work Together
+						Let&apos;s Work Together
 					</h1>
 					<p className="text-xl mb-12 max-w-2xl">
-						I'm currently looking for a new opportunity. Whether you
-						have a question or just want to say hi, I'll try my best
+						I&apos;m currently looking for a new opportunity. Whether you
+						have a question or just want to say hi, I&apos;ll try my best
 						to get back to you!
 					</p>
 				</div>
