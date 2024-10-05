@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
 		<LampContainer>
 			<section
 				id="contact"
-				className="text-white py-16 flex items-start flex-col lg:flex-row gap-8 mt-5"
+				className="text-white flex items-start flex-col lg:flex-row gap-8"
 			>
 				<div className="container mx-auto px-4">
 					<h1 className="text-5xl font-bold text-white mb-8">
