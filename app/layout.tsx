@@ -59,6 +59,7 @@ export default function RootLayout({
 					name="description"
 					content="Portfolio of Tanmay, a full-stack developer."
 				/>
+				<meta name="google-site-verification" content="0fACbBmkzK-44Y0TlOwJoFC6DJLjAcv5C2vq5j0fc9g" />
 				{/* OpenGraph & Twitter Meta Tags */}
 				<meta
 					property="og:url"
