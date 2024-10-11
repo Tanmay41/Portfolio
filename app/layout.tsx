@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
 import LenisScroll from "./LenisScroll";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import PageTitleSwitcher from "@/components/PageTitleSwitcher";
 import { ThemeProvider } from "@/components/theme-provider";
 
@@ -59,7 +60,10 @@ export default function RootLayout({
 					name="description"
 					content="Portfolio of Tanmay, a full-stack developer."
 				/>
-				<meta name="google-site-verification" content="0fACbBmkzK-44Y0TlOwJoFC6DJLjAcv5C2vq5j0fc9g" />
+				<meta
+					name="google-site-verification"
+					content="0fACbBmkzK-44Y0TlOwJoFC6DJLjAcv5C2vq5j0fc9g"
+				/>
 				{/* OpenGraph & Twitter Meta Tags */}
 				<meta
 					property="og:url"
@@ -116,6 +120,7 @@ export default function RootLayout({
 				>
 					{children}
 				</ThemeProvider>
+				<Analytics />
 			</body>
 		</html>
 	);
